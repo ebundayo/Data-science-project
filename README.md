@@ -24,20 +24,27 @@ Source Data: https://github.com/Microsoft/sql-server-samples/releases/download/a
 
 The dataset has 15 columns and 60398 rows.
 Data Dictionary:
-SalesOrderNo: SaleOrder number uniquely assigned to each transaction.
-ProductId: Unique Product Id
-StockCode: Product (item) code.
-ProductName: Product (item) name.
-OrderQuantity: The quantities of each product (item) per transaction.
-OrderDate: The day and time when each transaction was generated.
-SalesAmount: Product sales amount
-TotalCost: Product cost
-UnitPrice: Product price per unit in sterling.
-CustomerID: Customer number uniquely assigned to each customer.
-CustomerName: Customer name uniquely assigned to each customer.
-Country: The name of the country where each customer resides.
+- SalesOrderNo: SaleOrder number uniquely assigned to each transaction.
+- CustomerID: Customer number uniquely assigned to each customer.
+- CustomerName: Customer name uniquely assigned to each customer.
+- ProductId: Unique Product Id.
+- ProductName: Product (item) name.
+- OrderQuantity: The quantities of each product (item) per transaction.
+- SalesAmount: Product sales amount.
+- TotalCost: Product  production cost.
+- Profit: Product profit.
+- OrderDate: The day and time when each transaction was generated.
+- Product Category: Product (item) Category.
+- Product Sub Category: Product (item) SubCategory.
+- Country: The name of the country where each customer resides.
  
+ ## Data preparation
+ -  The project was implemented in python 3.7.3
+ -  Packages: Pandas, Numpy, Pyodbc, Matplotlib, Seaborn, Sklearn, Scipy.Sparse, Implict, Random, Csr_matrix, Display_html
+    Cosine, Datetime, MinMaxScaler  and Features Engine.
+    
+ ## Approach
  
- ## Technology
- 
- The project was implemented in python 3.7.3
+ - Data Pre-Processing: Cleaning  up data, Item lookup and Grouped count of products bought by Customers.
+ - Creation of Sparse Matrix: 
+  
