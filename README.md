@@ -1,5 +1,7 @@
 # Recommendation Engine
 
+
+### Introduction
 With increased popularity and growth in the grocery store, movies, and event-based online and offline services like Walmart, Netflix, Google, Spotify, Amazon, Meetup, it has become difficult for customers to find items, movies, books, events that match their interests. Hence, many online businesses rely on customer reviews and ratings.
 
 Building a strong recommendation engine would be the natural answer to this problem. 
