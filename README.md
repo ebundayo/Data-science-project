@@ -24,28 +24,19 @@ Source Data: https://github.com/Microsoft/sql-server-samples/releases/download/a
 
 The dataset has 15 columns and 60398 rows.
 Data Dictionary:
-- SalesOrderNo: SaleOrder number uniquely assigned to each transaction.
-- CustomerID: Customer number uniquely assigned to each customer.
-- CustomerName: Customer name uniquely assigned to each customer.
-- ProductId: Unique Product Id.
-- ProductName: Product (item) name.
-- OrderQuantity: The quantities of each product (item) per transaction.
-- SalesAmount: Product sales amount.
-- TotalCost: Product  production cost.
-- Profit: Product profit.
-- OrderDate: The day and time when each transaction was generated.
-- Product Category: Product (item) Category.
-- Product Sub Category: Product (item) SubCategory.
-- Country: The name of the country where each customer resides.
- 
+
  ## Data preparation
  -  The project was implemented in python 3.7.3
  -  Packages: Pandas, Numpy, Pyodbc, Matplotlib, Seaborn, Sklearn, Scipy.Sparse, Implict, Random, Csr_matrix, Display_html,Cosine, Datetime, MinMaxScaler  and Features Engine.
     
  ## Approach
  
- - Data Pre-Processing: (**Cleaning up data**, **Item lookup** and **Grouped count of products bought by Customers**.
+ - Data Pre-Processing: **Cleaning up data**, **Item lookup** and **Grouped count of products bought by Customers**.
  - Creation of Sparse Matrix: **Grouped purchase quantities** and **Rectangular arrangement of customers and items into rows and columns**
+ - Building the recommendation system
+ - Evaluating the recommendation system
+ - Recommendation examples
+ 
  - Model Selection:  Model application is applied here after all data prepartion and transformation have been done/ To check customers purchasing patterns. There two application    of model selection for this project.
       * Alternating Least Square (ALS): It is an implicit recommendation algorithm to make a recommendations of products to customers.It's an iterative optimization process.
       * K-Nearest Neighbor (KNN): It is an explict recommendation algorithm  to make a recommendation of products similar to users rating, to get a prediction/recommendation to         new users.
