@@ -12,14 +12,24 @@ Explicit feedback is especially important in the entertainment and eCommerce ind
 
 Today, we have passed this task in the hands, or minds, of algorithms. As a marketing tool, we could say that these machines are well-trained in the art of up-selling and cross-selling.
 
- 
+ ## Business Understanding
+ - Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to earn a profit.- This case has some business question using the data:
+- What is percentage of sales by Product Name?
+- Which Sub-Product Category boost sales for AHG?
+- Who is the Top Customers and by what count of order?
+
+## Data Understanding
+Source Data: Online retail dataset by UCI Machine Learning Library. https://archive.ics.uci.edu/ml/datasets/Online+Retail
+The dataset has 8 columns and 541909 rows.
+Data Dictionary:
+InvoiceNo: Invoice number uniquely assigned to each transaction.
+StockCode: Product (item) code.
+Description: Product (item) name.
+Quantity: The quantities of each product (item) per transaction.
+InvoiceDate: The day and time when each transaction was generated.
+UnitPrice: Product price per unit in sterling.
+CustomerID: Customer number uniquely assigned to each customer.
+Country: The name of the country where each customer resides.
  ## Technology
  
  The project was implemented in python 3.7.3
-
-## Business Understanding
- - Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to earn a profit.- This case has some business question using the data:
-How many product sold every month?
-How much customer spend their money every month?
-How about Customer segmentation analysis?
-How about recommendation based on customer segmentation?
