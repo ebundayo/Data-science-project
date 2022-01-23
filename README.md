@@ -36,9 +36,5 @@ Data Dictionary:
  - Building the recommendation system
  - Evaluating the recommendation system
  - Recommendation examples
- 
- - Model Selection:  Model application is applied here after all data prepartion and transformation have been done/ To check customers purchasing patterns. There two application    of model selection for this project.
-      * Alternating Least Square (ALS): It is an implicit recommendation algorithm to make a recommendations of products to customers.It's an iterative optimization process.
-      * K-Nearest Neighbor (KNN): It is an explict recommendation algorithm  to make a recommendation of products similar to users rating, to get a prediction/recommendation to         new users.
-     
-  ## Evaluating model perfomance
+  
+  ## Conclusion
