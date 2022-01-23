@@ -1,5 +1,10 @@
 # Recommendation Engine
 
-A product recommendation is just like a filtering system that seeks to predict and show the items that a user would like to purchase. It may not be entirely accurate, but if it shows what user would like then basically it is doing its job right.
+With increased popularity and growth in the grocery store, movies, and event-based online and offline services like Walmart, Netflix, Google, Spotify, Amazon, Meetup, it has become difficult for customers to find items, movies, books, events that match their interests. Hence, many online businesses rely on customer reviews and ratings.
 
-Recommendation engines are everywhere these days. In fact, some of the biggest brands we engage with every day are built around one, including Netflix, Amazon, Google, Spotify and Goodreads. Thirty-five percent of purchases on Amazon come from product recommendations. So, 
+Building a strong recommendation engine would be the natural answer to this problem. Recommendation Engine is a type of data filtering tool using machine learning algorithms to recommend the most relevant items to a particular user or customer. It operates on the principle of finding patterns in consumers’ behavior data, which can be collected implicitly and explicitly.
+
+Explicit feedback is especially important in the entertainment and eCommerce industry where all customer engagements are impacted by these ratings. Netflix uses a recommendation engine to present viewers with movie and show suggestions. Amazon, on the other hand, uses a recommendation engine to present customers with product recommendations. While each uses one for slightly different purposes, both have the same goal: to drive sales, boost engagement and retention, and deliver more personalized customer experiences.
+
+In the past, recommendations would come from a salesperson or friends and family. Today, we have passed this task in the hands, or minds, of algorithms. As a marketing tool, you could say that these machines are well-trained in the art of up-selling and cross-selling.
+
