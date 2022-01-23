@@ -11,7 +11,15 @@ Recommendation Engine is a type of data filtering tool using machine learning al
 Explicit feedback is especially important in the entertainment and eCommerce industry where all customer engagements are impacted by these ratings. Netflix uses a recommendation engine to present viewers with movie and show suggestions. Amazon, on the other hand, uses a recommendation engine to present customers with product recommendations. While each uses one for slightly different purposes, both have the same goal: to drive sales, boost engagement and retention, and deliver more personalized customer experiences.
 
 Today, we have passed this task in the hands, or minds, of algorithms. As a marketing tool, we could say that these machines are well-trained in the art of up-selling and cross-selling.
+
  
  ## Technology
  
  The project was implemented in python 3.7.3
+
+## Business Understanding
+ - Retail is the process of selling consumer goods or services to customers through multiple channels of distribution to earn a profit.- This case has some business question using the data:
+How many product sold every month?
+How much customer spend their money every month?
+How about Customer segmentation analysis?
+How about recommendation based on customer segmentation?
