@@ -40,11 +40,14 @@ Data Dictionary:
  
  ## Data preparation
  -  The project was implemented in python 3.7.3
- -  Packages: Pandas, Numpy, Pyodbc, Matplotlib, Seaborn, Sklearn, Scipy.Sparse, Implict, Random, Csr_matrix, Display_html
-    Cosine, Datetime, MinMaxScaler  and Features Engine.
+ -  Packages: Pandas, Numpy, Pyodbc, Matplotlib, Seaborn, Sklearn, Scipy.Sparse, Implict, Random, Csr_matrix, Display_html,Cosine, Datetime, MinMaxScaler  and Features Engine.
     
  ## Approach
  
- - Data Pre-Processing: Cleaning  up data, Item lookup and Grouped count of products bought by Customers.
- - Creation of Sparse Matrix: 
-  
+ - Data Pre-Processing: (**Cleaning up data**, **Item lookup** and **Grouped count of products bought by Customers**.
+ - Creation of Sparse Matrix: **Grouped purchase quantities** and **Rectangular arrangement of customers and items into rows and columns**
+ - Model Selection:  Model application is applied here after all data prepartion and transformation have been done/ To check customers purchasing patterns. There two application    of model selection for this project.
+      * Alternating Least Square (ALS): It is an implicit recommendation algorithm to make a recommendations of products to customers.It's an iterative optimization process.
+      * K-Nearest Neighbor (KNN): It is an explict recommendation algorithm  to make a recommendation of products similar to users rating, to geta a prediction recommendation to         new users.
+     
+  ## Evaluating model perfomance
