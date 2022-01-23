@@ -19,17 +19,25 @@ Today, we have passed this task in the hands, or minds, of algorithms. As a mark
 - Who is the Top Customers and by what count of order?
 
 ## Data Understanding
-Source Data: Online retail dataset by UCI Machine Learning Library. https://archive.ics.uci.edu/ml/datasets/Online+Retail
-The dataset has 8 columns and 541909 rows.
+
+Source Data: https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2012.bak (AdventureWorks sample database)
+
+The dataset has 15 columns and 60398 rows.
 Data Dictionary:
-InvoiceNo: Invoice number uniquely assigned to each transaction.
+SalesOrderNo: SaleOrder number uniquely assigned to each transaction.
+ProductId: Unique Product Id
 StockCode: Product (item) code.
-Description: Product (item) name.
-Quantity: The quantities of each product (item) per transaction.
-InvoiceDate: The day and time when each transaction was generated.
+ProductName: Product (item) name.
+OrderQuantity: The quantities of each product (item) per transaction.
+OrderDate: The day and time when each transaction was generated.
+SalesAmount: Product sales amount
+TotalCost: Product cost
 UnitPrice: Product price per unit in sterling.
 CustomerID: Customer number uniquely assigned to each customer.
+CustomerName: Customer name uniquely assigned to each customer.
 Country: The name of the country where each customer resides.
+ 
+ 
  ## Technology
  
  The project was implemented in python 3.7.3
